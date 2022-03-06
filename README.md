@@ -18,3 +18,6 @@
 	`cd sama-sama-store`
   
 3. Open index.html
+
+
+Or you can view the [live demo here](https://sama-sama-store.vercel.app/)
