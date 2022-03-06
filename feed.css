@@ -1,0 +1,71 @@
+.feed-header {
+    padding-left: 12rem;
+    color: #ffff;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.top-reviews {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feed-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.user-feed {
+    height: 600px;
+    width: 400px;
+    border: 2px solid #212529;
+    border-radius: 20px;
+}
+
+img {
+    margin-top: 1rem;
+    padding-left: 3rem;
+    height: 300px;
+}
+
+h3,
+h5,
+p {
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    font-size: 13px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #212529;
+}
+
+svg {
+    margin: 110px;
+}
+
+.btn {
+    margin-top: 4rem;
+    margin-left: 20rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    background-color: #212529;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-size: 48px;
+}
