@@ -1,1 +1,2 @@
-# sama-sama-store
+# Sudoers
+Hackathon Repo
