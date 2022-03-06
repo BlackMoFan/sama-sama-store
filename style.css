@@ -586,4 +586,20 @@ details[open] summary ~ * {
 }
 /* FAQs */
 
+#convert-to-red {
+    border: 3px #d90416 solid;
+    border-radius: 1rem;
+}
+
+#convert-to-red-full {
+    border: 3px #d90416 solid;
+    background: #d90416;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+#submitButton {
+    background: #d90416;
+}
+
 /* end additional - Rod */
