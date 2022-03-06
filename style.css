@@ -230,7 +230,7 @@ body {
 
 .banner input[value*='Learn More'] {
     border: 1px #e9bcb7 solid;
-    background: #e9bcb7;
+    background: transparent;
     cursor: pointer;
 }
 
