@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- For using fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -291,7 +292,8 @@
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                                <!-- <input class="convert-to-red" type="button" value="Choose plan"> -->
+                                <div class="d-grid" id="convert-to-red"><a class="btn" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -341,7 +343,7 @@
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
+                                <div class="d-grid" id="convert-to-red-full"><a class="btn" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -389,7 +391,7 @@
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                                <div class="d-grid" id="convert-to-red"><a class="btn" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -409,7 +411,9 @@
                         <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
+                                    <div class="flex-shrink-0">
+                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1"></i> -->
+                                        <i class="fas fa-comment-dots fa-5x" style="color: #d90416"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-1">Thank you for putting together such a great product. We loved
@@ -424,7 +428,9 @@
                         <div class="card">
                             <div class="card-body p-4">
                                 <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
+                                    <div class="flex-shrink-0">
+                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1"></i> -->
+                                        <i class="fas fa-comment-dots fa-5x" style="color: #d90416"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-1">The whole team was a huge help with putting things together for our
@@ -443,7 +449,7 @@
         <section id="contact-id" class="bg-light py-5">
             <div class="container px-5 my-5 px-5">
                 <div class="mb-5 contact-section">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa fa-address-book" aria-hidden="true" style="font-size: 2rem;"></i>
+                    <div class="feature text-white rounded-3 mb-3"><i class="fa fa-address-book" aria-hidden="true" style="font-size: 6rem; color: #d90416; margin-bottom: 1rem;"></i>
                     </div>
                     <h2 class="fw-bolder get-in-touch">Get in touch</h2>
                     <p class="lead mb-0">We'd love to hear from you</p>
@@ -511,7 +517,7 @@
                                 <div class="text-center text-danger mb-3">Error sending message!</div>
                             </div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                            <div class="d-grid"><button class="btn btn-lg disabled" id="submitButton"
                                     type="submit">Submit</button></div>
                         </form>
                     </div>
