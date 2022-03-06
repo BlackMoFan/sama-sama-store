@@ -230,17 +230,23 @@ body {
     cursor: pointer;
 }
 
+#learn-more {
+    border: 1px #e9bcb7 solid;
+    background: #e9bcb7;
+    cursor: pointer;
+}
+
 /* .banner input[value*='Get Started'] {
     border: 1px #d90416 solid;
     background: #d90416;
     cursor: pointer;
 } */
 
-.banner input[value*='Learn More'] {
+/* .banner input[value*='Learn More'] {
     border: 1px #e9bcb7 solid;
     background: #e9bcb7;
     cursor: pointer;
-}
+} */
 
 input[value*='Add to cart'] {
     margin-top: 10px;
