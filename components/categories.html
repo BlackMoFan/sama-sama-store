@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="../css/swiper.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/styles1.css">
+    <!-- <link href="../style.css" rel="stylesheet"> -->
+    
+    <!-- For using fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+    <title>Categories | Sama-sama Store</title>
+</head>
+
+<body>
+    <!-- <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                SAMASA
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#categories" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#quick-buy" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">Services</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+
+                <div class="nav__shop">
+                    <i class="bi bi-bell"></i>
+                </div>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class="bi bi-bag"></i>
+                </div>
+
+                <div class="nav__shop">
+                    <i class="bi bi-person"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+    <!-- Header section -->
+    <header class="header">
+        <a href="../index.html" class="logo">Sama-sama Store</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#">Categories</a></li>
+            <li><a href="./assistance.html">Assistance</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="../index.html#contact-id">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#"><i class="fa fa-bell"></i></a></li>
+            <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+        </ul>
+        <!-- </section> -->
+    </header> <!-- Header section -->
+
+    <!-- CART -->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱420</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">2</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱1007</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱108</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">4</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">7 items</span>
+            <span class="cart__prices-total">₱2,279</span>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="../img/best.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">BEST SELLER <br> AVAILABLE NOW!</h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum, in dolorem veniam
+                        accusantium id labore, distinctio mollitia ipsum voluptates assumenda sit nemo tempora
+                        laboriosam quaerat neque perspiciatis? Perferendis, molestias?
+                    </p>
+                    <span class="home__price">₱999</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+
+                        <button class="button home__button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- categories -->
+        <section class="categories section container" id="categories">
+            <h2 class="section__title">
+                Categories
+            </h2>
+
+            <div class="categories__container grid">
+                <article class="categories__card">
+                    <span class="categories__tag">Try it</span>
+
+                    <img src="../img/prod.png" alt="" class="categories__img">
+
+                    <div class="categories__data">
+                        <h3 class="categories__title">Products</h3>
+                        <span class="categories__list">Books <br> Reviewers <br>
+                            Annotations <br> Presentations</span>
+                    </div>
+
+                    <button class="button categories__button">GO NOW</button>
+                </article>
+
+                <article class="categories__card">
+                    <span class="categories__tag">Try it</span>
+
+                    <img src="../img/serv.png" alt="" class="categories__img">
+
+                    <div class="categories__data">
+                        <h3 class="categories__title">Services</h3>
+                        <span class="categories__list">Tutorials <br> Photo Editing <br> Video Editing </span>
+                    </div>
+
+                    <button class="button categories__button">GO NOW</button>
+                </article>
+
+                <article class="categories__card">
+                    <span class="categories__tag">Try it</span>
+
+                    <img src="../img/feat.png" alt="" class="categories__img">
+
+                    <div class="categories__data">
+                        <h3 class="categories__title">More</h3>
+                        <span class="categories__list">Upcoming Features </span>
+                    </div>
+
+                    <button class="button categories__button">GO NOW</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Quick Buy -->
+        <section class="quick-buy section container">
+            <h2 class="section__title">
+                Quick Buy
+            </h2>
+
+            <div class="quick-buy__container grid">
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="quick-buy__card">
+                    <img src="../img/placeholder.png" alt="" class="quick-buy__img">
+
+                    <h3 class="quick-buy__title">Lorem</h3>
+                    <span class="quick-buy__price">₱99</span>
+
+                    <button class="quick-buy__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container"> 
+            <a href="#">
+                <h5 class="see__more">
+                    See more
+                </h5>
+            </a>
+        </section>
+
+        <footer>
+            Copyright © SAMA-SAma Store 2022
+        </footer>
+
+        <!-- SWIPER JS -->
+        <script src="js/swiper.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
