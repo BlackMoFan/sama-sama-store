@@ -50,7 +50,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #000000, #211a10, #211a10, #211a10, #211a10, #c9b7b7, #afa2a2, #a7a1a1);
+    background-image: linear-gradient(to bottom, #000000, #c9b7b7, #c9b7b7, #c9b7b7, #c9b7b7, #c9b7b7, #afa2a2, #a7a1a1);
 }
 
 .header {
@@ -213,19 +213,27 @@ body {
     margin-bottom: 20px;
 }
 
-.banner-buttons input{
+.banner-buttons input,
+.banner-buttons button {
     font-size: 20px;
     display: inline-block;
     border-radius: 5px;
     padding: 13px;
     margin: 10px;
+    color: #fff;
 }
 
-.banner input[value*='Get Started'] {
+#get-started {
     border: 1px #d90416 solid;
     background: #d90416;
     cursor: pointer;
 }
+
+/* .banner input[value*='Get Started'] {
+    border: 1px #d90416 solid;
+    background: #d90416;
+    cursor: pointer;
+} */
 
 .banner input[value*='Learn More'] {
     border: 1px #e9bcb7 solid;
@@ -262,6 +270,11 @@ input[value*='Add to cart'] {
 
 .check-product {
     color: #d90416;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 a:hover {
