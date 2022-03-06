@@ -232,6 +232,7 @@ body {
     border: 1px #e9bcb7 solid;
     background: transparent;
     cursor: pointer;
+    color: #fff;
 }
 
 input[value*='Add to cart'] {
