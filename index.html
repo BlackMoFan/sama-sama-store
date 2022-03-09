@@ -12,23 +12,25 @@
 
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    
+
     <!-- Boxicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="./css/styles.css" rel="stylesheet" />
-    
+
     <!--Personal Stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styles1.css">
-    
+    <link href="./css/product.css" rel="stylesheet" />
+
     <!-- SWIPER CSS -->
     <link rel="stylesheet" href="../css/swiper.css">
-    
+
     <!-- For using fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/product.css">
 </head>
 
 <body>
@@ -54,7 +56,8 @@
             <li><a href="#" id="cart-shop"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
         </ul>
-    </header> <!-- Header section -->
+    </header>
+    <!-- Header section -->
 
     <!-- CART -->
     <div class="cart" id="cart">
@@ -149,7 +152,8 @@
             <span class="cart__prices-item">7 items</span>
             <span class="cart__prices-total">₱2,279</span>
         </div>
-    </div> <!-- CART -->
+    </div>
+    <!-- CART -->
 
     <!-- Header-->
     <main class="main-content">
@@ -157,7 +161,7 @@
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6 banner">
-    
+
                         <div class="input-group rounded">
                             <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
                             <span class="input-group-text border-0" id="search-addon">
@@ -165,24 +169,23 @@
                             </span>
                         </div>
                         <div class="my-5 banner-texts">
-                            <h1 class="display-5 fw-bolder mb-2"><span id="sama-sama-store">WELCOME TO <span id="sama-store">SAMA-SAMA STORE</span></span> <br>A place for all your
-                                educational needs!</h1>
-                                <!-- <video id="videoItem" src="./assets/SAMA_SAMA Store.mp4" controls></video> -->
-                                <div id="videoItem" style="position: relative; padding-bottom: 56.25%; height: 0;">
-                                    <iframe src="https://mega.nz/embed/uoEAgBQY#on0YgcKA7RnSsUf1_kJj3bQgtXC4uKjaXGDJpk0bCUw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-                                    <!-- <iframe 
+                            <h1 class="display-5 fw-bolder mb-2"><span id="sama-sama-store">WELCOME TO <span id="sama-store">SAMA-SAMA STORE</span></span> <br>A place for all your educational needs!</h1>
+                            <!-- <video id="videoItem" src="./assets/SAMA_SAMA Store.mp4" controls></video> -->
+                            <div id="videoItem" style="position: relative; padding-bottom: 56.25%; height: 0;">
+                                <iframe src="https://mega.nz/embed/uoEAgBQY#on0YgcKA7RnSsUf1_kJj3bQgtXC4uKjaXGDJpk0bCUw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                                <!-- <iframe 
                                         src="https://jumpshare.com/embed/q0d9xDovuVAwTEaCd7Y3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
                                     </iframe> -->
-                                </div>
+                            </div>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                                 <a class="btn btn-primary btn-lg px-4 me-sm-3" id="get-started" href="https://forms.gle/3EBHHs94rEqRxuhG7">Get Started</a>
                                 <a class="btn btn-outline-dark btn-lg px-4" href="./components/assistance.html">Learn More</a>
                             </div>
                             <!-- <div class="banner-buttons">
                                 <a href="https://forms.gle/3EBHHs94rEqRxuhG7"><button id="get-started">Get Started</button></a> -->
-                                <!-- <input type="button" value="Get Started"> -->
-                                <!-- <a href="./components/assistance.html"><button id="learn-more">Learn More</button></a> -->
-                                <!-- <input type="button" value="Learn More"> -->
+                            <!-- <input type="button" value="Get Started"> -->
+                            <!-- <a href="./components/assistance.html"><button id="learn-more">Learn More</button></a> -->
+                            <!-- <input type="button" value="Learn More"> -->
                             <!-- </div> -->
                         </div>
                     </div>
@@ -198,12 +201,12 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="some-image">
                             <div class="product-image">
-                                <img src="./assets/Tux.png">
+                                <img src="./assets/img/ah.jpg" class="product-photo">
                             </div>
                         </div>
                         <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product1 by Store1</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
+                        <h2 class="h4 fw-bolder">Atomic Habits by readd@ily</h2>
+                        <p>Php 765.00 <br>A supremely practical and useful book. James Clear distills the most fundamental information about habit formation, so you can accomplish more by focusing on less.</p>
                         <a class="text-decoration-none check-product" href="#!">
                             Check product
                             <i class="bi bi-arrow-right"></i>
@@ -212,285 +215,274 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="some-image">
                             <div class="product-image">
-                                <img src="./assets/Tux.png">
+                                <img src="./assets/img/ikigai.jpg" class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product2 by Store2</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Ikigai by bookstor3</h2>
+                        <p>Php 999.00 <br>Ikigai: The Japanese Secret to a Long and Happy Life" talks about the Japanese island of Okinawa and explains the various blue zones that are the reason for the longevity of its residents. The concept of Ikigai,
+                            or a deep purpose of life, is an important factor in achieving this longevity.</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                    <div class="col-lg-4 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/tagr.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product3 by Store3</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Think and Grow Rich by bookW0rm</h2>
+                        <p>Php 845.00 <br>Think And Grow Rich is a curation of the 13 most common habits of wealthy and successful people, distilled from studying over 500 individuals over the course of 20 years. If The Intelligent Investor is the bible
+                            for investing, then Think And Grow Rich is the bible for successful people in general.</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5 border-bottom features-section" id="features">
-            <div class="container px-5 my-5">
+        <section class="py-5 border-bottom features-section " id="features ">
+            <div class="container px-5 my-5 ">
                 <!--Subheading-->
-                <h2 class="subhead">Books</h2>
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                <h2 class="subhead ">Books</h2>
+                <div class="row gx-5 ">
+                    <div class="col-lg-4 mb-5 mb-lg-0 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/aadd.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product1 by Store1</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Andoid Application Development for Dummies by bookShap</h2>
+                        <p>Php 2500.00 <br>The Android OS continues to rapidly expand offering app developers access to one of the largest platforms available, and this easy-to-follow guide walks you through the development process step by step. In this
+                            new edition of the bestselling Android Application Development For Dummies, Android programming experts Michael Burton and Donn Felker explain how to download the SDK, get Eclipse up and running, code Android applications,
+                            and share your finished products with the world.</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                    <div class="col-lg-4 mb-5 mb-lg-0 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/ifd.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product2 by Store2</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Investing for Dummies by hard_b0unD</h2>
+                        <p>Php 1450.00 <br>Investing For Dummies arms novice investors with Eric Tyson's time-tested advice along with updates to his investing recommendations and strategies that reflect changing market conditions. You'll get coverage of
+                            all aspects of investing, including how to develop and manage a portfolio; invest in stocks, bonds, mutual funds, and real estate; open a small business; and understand the critical tax implications of your investing decisions.</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                    <div class="col-lg-4 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/pfd.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product3 by Store3</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Piano & Keyboard by fl!pP4ge</h2>
+                        <p>Php 1790.00 <br>Being able to play a tune on the piano can bring you a lifetime of sheer aesthetic pleasureand put you in serious demand at parties! Whatever your motivation for tinkling the ivories, the latest edition of Piano
+                            & Keyboard All-In-One For Dummies gives you the essentials you need both to build your playing skills and expand your knowledge of music theory, from deciding what keyboard suits you best to musing on the science of what makes
+                            music so emotionally compelling. </p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5 border-bottom features-section" id="features">
-            <div class="container px-5 my-5">
+        <section class="py-5 border-bottom features-section " id="features ">
+            <div class="container px-5 my-5 ">
                 <!--Subheading-->
-                <h2 class="subhead">Supplies</h2>
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                <h2 class="subhead ">Supplies</h2>
+                <div class="row gx-5 ">
+                    <div class="col-lg-4 mb-5 mb-lg-0 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/sc.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product1 by Store1</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Casio Scientific Calculator by supply0u</h2>
+                        <p>Php 999.00 <br>V.P.A.M. is an infix system for entering mathematical expressions, used by Casio in most of its current scientific calculators. In the infix notation the precedence of mathematical operators is taken into account.
+                            According to Casio, in V.P.A.M. calculations can be input exactly as they are normally written. Functions, operators and symbols are shown on the calculator display and calculations are performed according to operator precedence.</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                    <div class="col-lg-4 mb-5 mb-lg-0 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/pk.jpeg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product2 by Store2</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Phlebotomy Kit by med_Supp</h2>
+                        <p>Php 1650.00 <br>When beginning your Phlebotomy training, it is crucial to familiarize yourself with the wide range of equipment you may use on a day-to-day basis. This kit includes all materials needed to practice the art of venipuncture
+                            without having to buy in bulk from large manufacturers.
+                        </p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="some-image">
-                            <div class="product-image">
-                                <img src="./assets/Tux.png">
+                    <div class="col-lg-4 ">
+                        <div class="some-image ">
+                            <div class="product-image ">
+                                <img src="./assets/img/bj.jpg " class="product-photo">
                             </div>
                         </div>
-                        <input type="button" value="Add to cart">
-                        <h2 class="h4 fw-bolder">Product3 by Store3</h2>
-                        <p>Php 123.00 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt, metus eget congue lacinia, lacus nisl imperdiet magna, vitae pellentesque odio sapien non massa. Fusce malesuada dignissim rhoncus. Curabitur ut tellus eget lorem fringilla mollis. Donec imperdiet laoreet efficitur.</p>
-                        <a class="text-decoration-none check-product" href="#!">
+                        <input type="button " value="Add to cart ">
+                        <h2 class="h4 fw-bolder ">Bullet Journal by paperW0rk$</h2>
+                        <p>Php 199.00 <br>A bullet journal is something of a mix of a daily planner, to-do list, and diary. The bullet journal is an analog journaling system created by New York-based designer Ryder Carroll. He describes this planner/journaling
+                            approach as a method to "help you track the past, organize the present, and plan for the future."</p>
+                        <a class="text-decoration-none check-product " href="#! ">
                             Check product
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right "></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Pricing section-->
-        <section class="bg-light py-5 border-bottom">
-            <div class="container px-5 my-5">
-                <div class="mb-5">
-                    <h2 class="fw-bolder">Be a member of our store and get discounts!</h2>
-                    <p class="lead mb-0">With our no hassle pricing plans</p>
+        <section class="bg-light py-5 border-bottom ">
+            <div class="container px-5 my-5 ">
+                <div class="mb-5 ">
+                    <h2 class="fw-bolder ">Be a member of our store and get discounts!</h2>
+                    <p class="lead mb-0 ">With our no hassle pricing plans</p>
                 </div>
-                <div class="row gx-5 justify-content-center">
+                <div class="row gx-5 justify-content-center ">
                     <!-- Pricing card free-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold text-muted">Free</div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">₱0</span>
-                                    <span class="text-muted">/ mo.</span>
+                    <div class="col-lg-6 col-xl-4 ">
+                        <div class="card mb-5 mb-xl-0 ">
+                            <div class="card-body p-5 ">
+                                <div class="small text-uppercase fw-bold text-muted ">Free</div>
+                                <div class="mb-3 ">
+                                    <span class="display-4 fw-bold ">₱0</span>
+                                    <span class="text-muted ">/ mo.</span>
                                 </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
+                                <ul class="list-unstyled mb-4 ">
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i>
                                         <strong>1 users</strong>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        5GB storage
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> 5GB storage
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Unlimited public projects
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Community access
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Community access
                                     </li>
-                                    <li class="mb-2 text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Unlimited private projects
+                                    <li class="mb-2 text-muted ">
+                                        <i class="bi bi-x "></i> Unlimited private projects
                                     </li>
-                                    <li class="mb-2 text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Dedicated support
+                                    <li class="mb-2 text-muted ">
+                                        <i class="bi bi-x "></i> Dedicated support
                                     </li>
-                                    <li class="mb-2 text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Free linked domain
+                                    <li class="mb-2 text-muted ">
+                                        <i class="bi bi-x "></i> Free linked domain
                                     </li>
-                                    <li class="text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Monthly status reports
+                                    <li class="text-muted ">
+                                        <i class="bi bi-x "></i> Monthly status reports
                                     </li>
                                 </ul>
-                                <!-- <input class="convert-to-red" type="button" value="Choose plan"> -->
-                                <div class="d-grid" id="convert-to-red"><a class="btn" href="#!">Choose plan</a></div>
+                                <!-- <input class="convert-to-red " type="button " value="Choose plan "> -->
+                                <div class="d-grid " id="convert-to-red "><a class="btn " href="#! ">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
                     <!-- Pricing card pro-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold">
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    Pro
+                    <div class="col-lg-6 col-xl-4 ">
+                        <div class="card mb-5 mb-xl-0 ">
+                            <div class="card-body p-5 ">
+                                <div class="small text-uppercase fw-bold ">
+                                    <i class="bi bi-star-fill text-warning "></i> Pro
                                 </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">₱450</span>
-                                    <span class="text-muted">/ mo.</span>
+                                <div class="mb-3 ">
+                                    <span class="display-4 fw-bold ">₱450</span>
+                                    <span class="text-muted ">/ mo.</span>
                                 </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
+                                <ul class="list-unstyled mb-4 ">
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i>
                                         <strong>5 users</strong>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        5GB storage
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> 5GB storage
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Unlimited public projects
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Community access
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Community access
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited private projects
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Unlimited private projects
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Dedicated support
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Dedicated support
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Free linked domain
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Free linked domain
                                     </li>
-                                    <li class="text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Monthly status reports
+                                    <li class="text-muted ">
+                                        <i class="bi bi-x "></i> Monthly status reports
                                     </li>
                                 </ul>
-                                <div class="d-grid" id="convert-to-red-full"><a class="btn" href="#!">Choose plan</a></div>
+                                <div class="d-grid " id="convert-to-red-full "><a class="btn " href="#! ">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
                     <!-- Pricing card enterprise-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">₱2,500</span>  
-                                    <span class="text-muted">/ mo.</span>
+                    <div class="col-lg-6 col-xl-4 ">
+                        <div class="card ">
+                            <div class="card-body p-5 ">
+                                <div class="small text-uppercase fw-bold text-muted ">Enterprise</div>
+                                <div class="mb-3 ">
+                                    <span class="display-4 fw-bold ">₱2,500</span>
+                                    <span class="text-muted ">/ mo.</span>
                                 </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
+                                <ul class="list-unstyled mb-4 ">
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i>
                                         <strong>Unlimited users</strong>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        5GB storage
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> 5GB storage
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Unlimited public projects
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Community access
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Community access
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited private projects
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Unlimited private projects
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Dedicated support
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i> Dedicated support
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Unlimited</strong>
-                                        linked domains
+                                    <li class="mb-2 ">
+                                        <i class="bi bi-check text-primary "></i>
+                                        <strong>Unlimited</strong> linked domains
                                     </li>
-                                    <li class="text-muted">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Monthly status reports
+                                    <li class="text-muted ">
+                                        <i class="bi bi-check text-primary "></i> Monthly status reports
                                     </li>
                                 </ul>
-                                <div class="d-grid" id="convert-to-red"><a class="btn" href="#!">Choose plan</a></div>
+                                <div class="d-grid " id="convert-to-red "><a class="btn " href="#! ">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -498,47 +490,43 @@
             </div>
         </section>
         <!-- Testimonials section-->
-        <section class="py-5 border-bottom">
-            <div class="container px-5 my-5 px-5">
-                <div class="mb-5">
-                    <h2 class="fw-bolder">Customer testimonials</h2>
-                    <p class="lead mb-0">Our customers love working with us</p>
+        <section class="py-5 border-bottom ">
+            <div class="container px-5 my-5 px-5 ">
+                <div class="mb-5 ">
+                    <h2 class="fw-bolder ">Customer testimonials</h2>
+                    <p class="lead mb-0 ">Our customers love working with us</p>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
+                <div class="row gx-5 justify-content-center ">
+                    <div class="col-lg-6 ">
                         <!-- Testimonial 1-->
-                        <div class="card mb-4">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1"></i> -->
-                                        <i class="fas fa-comment-dots fa-5x" style="color: #d90416"></i>
+                        <div class="card mb-4 ">
+                            <div class="card-body p-4 ">
+                                <div class="d-flex ">
+                                    <div class="flex-shrink-0 ">
+                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1 "></i> -->
+                                        <i class="fas fa-comment-dots fa-5x " style="color: #d90416 "></i>
                                     </div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">I believe that the concept is ideal since nowadays 
-                                            online selling and other services are a thing. It is also a great 
-                                            way to promote small businesses and services, which are beneficial 
-                                            especially to working students.
+                                    <div class="ms-4 ">
+                                        <p class="mb-1 ">I believe that the concept is ideal since nowadays online selling and other services are a thing. It is also a great way to promote small businesses and services, which are beneficial especially to working students.
                                         </p>
-                                        <div class="small text-muted">- Potential customer 1, Iloilo, City</div>
+                                        <div class="small text-muted ">- Potential customer 1, Iloilo, City</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- Testimonial 2-->
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1"></i> -->
-                                        <i class="fas fa-comment-dots fa-5x" style="color: #d90416"></i>
+                        <div class="card ">
+                            <div class="card-body p-4 ">
+                                <div class="d-flex ">
+                                    <div class="flex-shrink-0 ">
+                                        <!-- <i class="bi bi-chat-right-quote-fill text-primary fs-1 "></i> -->
+                                        <i class="fas fa-comment-dots fa-5x " style="color: #d90416 "></i>
                                     </div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">
-                                            It's nice since it will give lower years especially 
-                                            freshmen students an academic resources.
+                                    <div class="ms-4 ">
+                                        <p class="mb-1 ">
+                                            It's nice since it will give lower years especially freshmen students an academic resources.
                                         </p>
-                                        <div class="small text-muted">- Potential customer 1, Iloilo, City</div>
+                                        <div class="small text-muted ">- Potential customer 1, Iloilo, City</div>
                                     </div>
                                 </div>
                             </div>
@@ -548,16 +536,16 @@
             </div>
         </section>
         <!-- Contact section-->
-        <section id="contact-id" class="bg-light py-5">
-            <div class="container px-5 my-5 px-5">
-                <div class="mb-5 contact-section">
-                    <div class="feature text-white rounded-3 mb-3"><i class="fa fa-address-book" aria-hidden="true" style="font-size: 6rem; color: #d90416; margin-bottom: 1rem;"></i>
+        <section id="contact-id " class="bg-light py-5 ">
+            <div class="container px-5 my-5 px-5 ">
+                <div class="mb-5 contact-section ">
+                    <div class="feature text-white rounded-3 mb-3 "><i class="fa fa-address-book " aria-hidden="true " style="font-size: 6rem; color: #d90416; margin-bottom: 1rem; "></i>
                     </div>
-                    <h2 class="fw-bolder get-in-touch">Get in touch</h2>
-                    <p class="lead mb-0">We'd love to hear from you</p>
+                    <h2 class="fw-bolder get-in-touch ">Get in touch</h2>
+                    <p class="lead mb-0 ">We'd love to hear from you</p>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
+                <div class="row gx-5 justify-content-center ">
+                    <div class="col-lg-6 ">
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
                         <!-- * * * * * * * * * * * * * * *-->
@@ -565,62 +553,55 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm " data-sb-form-api-token="API_TOKEN ">
                             <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                    data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div class="form-floating mb-3 ">
+                                <input class="form-control " id="name " type="text " placeholder="Enter your name... " data-sb-validations="required " />
+                                <label for="name ">Full name</label>
+                                <div class="invalid-feedback " data-sb-feedback="name:required ">A name is required.</div>
                             </div>
                             <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                    data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div class="form-floating mb-3 ">
+                                <input class="form-control " id="email " type="email " placeholder="name@example.com " data-sb-validations="required,email " />
+                                <label for="email ">Email address</label>
+                                <div class="invalid-feedback " data-sb-feedback="email:required ">An email is required.</div>
+                                <div class="invalid-feedback " data-sb-feedback="email:email ">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                    data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            <div class="form-floating mb-3 ">
+                                <input class="form-control " id="phone " type="tel " placeholder="(123) 456-7890 " data-sb-validations="required " />
+                                <label for="phone ">Phone number</label>
+                                <div class="invalid-feedback " data-sb-feedback="phone:required ">A phone number is required.
                                 </div>
                             </div>
                             <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text"
-                                    placeholder="Enter your message here..." style="height: 10rem"
-                                    data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            <div class="form-floating mb-3 ">
+                                <textarea class="form-control " id="message " type="text " placeholder="Enter your message here... " style="height: 10rem " data-sb-validations="required "></textarea>
+                                <label for="message ">Message</label>
+                                <div class="invalid-feedback " data-sb-feedback="message:required ">A message is required.
                                 </div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
+                            <div class="d-none " id="submitSuccessMessage ">
+                                <div class="text-center mb-3 ">
+                                    <div class="fw-bolder ">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
-                                    <a
-                                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    <a href="https://startbootstrap.com/solution/contact-forms ">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            <div class="d-none " id="submitErrorMessage ">
+                                <div class="text-center text-danger mb-3 ">Error sending message!</div>
                             </div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-lg disabled" id="submitButton"
-                                    type="submit">Submit</button></div>
+                            <div class="d-grid "><button class="btn btn-lg disabled " id="submitButton " type="submit ">Submit</button></div>
                         </form>
                     </div>
                 </div>
@@ -628,29 +609,29 @@
         </section>
     </main>
     <!-- Footer-->
-    <!-- <footer class="py-5 bg-dark">
-        <div class="container px-5">
-            <p class="m-0 text-center text-white">Copyright &copy; SAMA-SAma Store 2022</p>
+    <!-- <footer class="py-5 bg-dark ">
+        <div class="container px-5 ">
+            <p class="m-0 text-center text-white ">Copyright &copy; SAMA-SAma Store 2022</p>
         </div>
     </footer> -->
     <footer>
         Copyright © SAMA-SAma Store 2022
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js "></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js "></script>
 
     <!-- SWIPER JS -->
-    <script src="./js/swiper.js"></script>
+    <script src="./js/swiper.js "></script>
 
     <!-- MAIN JS -->
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js "></script>
 </body>
 
 </html>
