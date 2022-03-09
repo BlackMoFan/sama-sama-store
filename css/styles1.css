@@ -435,7 +435,7 @@ button {
 /* CART */
 .cart {
   position: fixed;
-  color: #d90416;
+  color: #d90416 !important;
   background-color: #cccccc;
   z-index: var(--z-fixed);
   width: 100%;
