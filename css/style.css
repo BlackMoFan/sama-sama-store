@@ -168,6 +168,12 @@ body {
     font-size: 5vh;
 }
 
+#logo-image {
+    width: 50px; /* 800 */
+    height: 38px; /* 658 */
+    /* margin-left: 5px; */
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
