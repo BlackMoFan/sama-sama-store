@@ -6,46 +6,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Sama-sama Store</title>
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles1.css">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="../css/swiper.css">
+    
     <!-- For using fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 </head>
 <body id="about-body">
     <!-- Header section -->
     <header class="header">
-        <a href="../index.html" class="logo">Sama-sama Store</a>
+        <a href="#" class="logo">Sama-sama Store
+            <!-- <img id="logo-image" src="./assets/sama-sama-store-logo.png"> -->
+            <img id="logo-image" src="../assets/logo.png">
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
             <li><a href="./categories.html">Categories</a></li>
             <li><a href="./assistance.html">Assistance</a></li>
-            <li><a href="../index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="../index.html#contact-id">Contact</a></li>
             <li><a href="./FAQ.html">FAQs</a></li>
             <li><a href="#"><i class="fa fa-bell"></i></a></li>
-            <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li> -->
+            <li><a href="#" id="cart-shop"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
         </ul>
-        <!-- </section> -->
     </header> <!-- Header section -->
+
+    <!-- CART -->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../assets/img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱420</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">2</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../assets/img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱1007</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="../assets/img/placeholder.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lorem</h3>
+                    <span class="cart__price">₱108</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">4</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">7 items</span>
+            <span class="cart__prices-total">₱2,279</span>
+        </div>
+    </div> <!-- CART -->
+
     <main class="about-main">
+        <h1 class="header-about">About Sama-Sama Store</h1>
+        <hr>
         <section class="banner-about">
-            <h1 class="header-about">About Sama-Sama Store</h1>
-            <hr>
             <p class="body-text-about">
-                <em>Sama-Sama Store</em> is a startup online shopping platform 
-                created by students from<br /> West Visayas State University - 
-                College of ICT and Central Philippine University. It is 
-                dedicated to help students and people<br /> to connect with 
+                <b>Sama-sama Store</b> is a startup online shopping platform 
+                created by students from West Visayas State University - 
+                College of ICT and Central Philippine University. <br />It is 
+                dedicated to help students and people to connect with 
                 products and services that can help them primarily with 
-                their educational needs. Additionally, it aims to help 
-                students<br /> and anyone who wishes to gain extra income by 
-                selling their materials and services in this platform.
+                their educational needs. <br />Additionally, it aims to help 
+                students and anyone who wishes to gain extra income by 
+                selling their materials and services in this platform.<br />
+                <br />This project is dedicated to a non-profit student organization 
+                called SAndigan ng mga MAg-aaral para sa SAmbayanan (SAMASA) in 
+                West Visayas State University.<br />This organization upholds peoples 
+                rights and welfare. So the money that will be raised in this 
+                project will go the developers and the organization.
             </p>
         </section>
     </main>
@@ -104,5 +218,11 @@
     <footer>
     Copyright © SAMA-SAma Store 2022
     </footer>
+
+    <!-- SWIPER JS -->
+    <script src="../js/swiper.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="../js/main.js"></script>
 </body>
 </html>
