@@ -778,6 +778,7 @@ details[open] summary ~ * {
     position:relative;
     height:100vh;
     overflow:hidden;
+    background-color: #ccc;
 }
 .bgvid{
     position:absolute;
