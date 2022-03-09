@@ -19,7 +19,8 @@
 
     <!-- Css -->
     <link rel="stylesheet" href="../css/styles1.css">
-    <!-- <link href="../css/style.css" rel="stylesheet"> -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet" />
     
     <!-- For using fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
@@ -28,6 +29,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
     <!-- <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
@@ -77,21 +79,24 @@
     </header> -->
     <!-- Header section -->
     <header class="header">
-        <a href="../index.html" class="logo">Sama-sama Store</a>
+        <a href="#" class="logo">Sama-sama Store
+            <!-- <img id="logo-image" src="./assets/sama-sama-store-logo.png"> -->
+            <img id="logo-image" src="../assets/logo.png">
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
             <li><a href="#">Categories</a></li>
             <li><a href="./assistance.html">Assistance</a></li>
-            <li><a href="../index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="../index.html#contact-id">Contact</a></li>
             <li><a href="./FAQ.html">FAQs</a></li>
             <li><a href="#"><i class="fa fa-bell"></i></a></li>
-            <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li> -->
+            <li><a href="#" id="cart-shop"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
         </ul>
-        <!-- </section> -->
     </header> <!-- Header section -->
 
     <!-- CART -->
@@ -187,7 +192,7 @@
             <span class="cart__prices-item">7 items</span>
             <span class="cart__prices-total">₱2,279</span>
         </div>
-    </div>
+    </div> <!-- CART -->
 
     <!-- MAIN -->
     <main class="main">
@@ -443,10 +448,12 @@
         </footer>
 
         <!-- SWIPER JS -->
-        <script src="js/swiper.js"></script>
+        <script src="../js/swiper.js"></script>
 
         <!-- MAIN JS -->
-        <script src="js/main.js"></script>
+        <script src="../js/main.js"></script>
+
+        <script src="../js/scripts.js"></script>
 </body>
 
 </html>
