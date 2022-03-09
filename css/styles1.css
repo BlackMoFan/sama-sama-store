@@ -11,17 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body,
+body,
 button,
 input {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-} */
+}
 
-/* h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-medium);
-} */
+}
 
 ul {
   list-style: none;
@@ -43,7 +43,7 @@ button {
 }
 
 /* REUSABLE CSS CLASSES */
-.container {
+.category-container {
   max-width: 1024px;
   padding: 1rem;
   /* margin-left: var(--mb-1-5);
@@ -548,7 +548,7 @@ button {
 }
 
 @media screen and (max-width: 320px) {
-  .container {
+  .category-container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
@@ -686,7 +686,7 @@ button {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
-  .container {
+  .category-container {
     margin-left: auto;
     margin-right: auto;
   }
