@@ -370,7 +370,7 @@ footer {
 hr {
     width: 15%;
     align-items: center;
-    color: #fff;
+    color: #000;
 }
 
 .body-text-about {
@@ -682,44 +682,27 @@ details[open] summary ~ * {
 
 /* styles in account page */
 #account-main {
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-/* .section-1 {
-    background: #063647;
+#avatar-section {
+    width: 100%;
+    padding-top: 8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
 }
 
-.section-2 {
-    background-color: #052D3D;
-}
-
-.section-3 {
-    background-color: #0E282E;
-}
-
-.section-4 {
-    background-color: #063647;
-    padding: 0.2rem;
-} */
-
-/* a.nav-item {
-    color: #dfdfdf;
-}
-
-a.nav-item:hover {
-    color: #fff;
-} */
-
-.avatar{
-    height:200px;
+#profile {
+    height: 200px;
     border-radius: 50%;
-    align-self: center;
 }
-
-/* .intro-description{
-    padding-top: 1rem;
-} */
 
 .social-container img{
     max-width:100%;
@@ -728,9 +711,14 @@ a.nav-item:hover {
 }
 
 .project-figure {
-    margin: 0 auto 1rem auto;
     max-height: 256px;
     max-width: 256px;
+}
+
+.project-figure img {
+    width: 256px;
+    height: 256px;
+    align-self: center;
 }
 
 .project-text {
@@ -739,42 +727,47 @@ a.nav-item:hover {
 
 .box {
     background-color: transparent;
-    border: 2px solid rgba(7, 59, 79, 0.5);
+    border: 2px solid #ccc;
 }
 
 .title {
-    /* color: #fff; */
     text-align: left;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .intro {
-    text-align: justify;
+    text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
-/* .void-background {
-    background-color: transparent; 
-} */
-
-/* @media screen and (max-width: 768px) {
-.nav-menu {
-    background-color: #063647;
+.favorites {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
 }
 
-.nav-toggle:hover {
-    background-color: transparent;
+.favorites h3 {
+    text-align: center;
 }
 
-.nav-toggle span {
-    background-color: #dfdfdf;
+#inside-favorites-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
 }
 
-.nav-toggle span:hover {
-    background-color: #fff;
+.individual-favorites {
+    margin: 3rem;
 }
 
-} */
+@media (min-width: 48em) {
+    #inside-favorites-section {
+        display: flex;
+        flex-direction: row;
+        margin: 3rem;
+    }
+}
 
 /* end additional - Rod */
