@@ -1,0 +1,9 @@
+.product-photo {
+    padding: 1rem;
+}
+
+.product-imag,
+.some-image {
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 20px;
+}
