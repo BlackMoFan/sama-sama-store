@@ -790,7 +790,7 @@ details[open] summary ~ * {
     width:400px;
     height:400px;
     position:absolute;
-    top:calc(50vh - 200px);
+    top:calc(50vh - 150px);
     left:calc(50vw - 200px);
     overflow:hidden;
 }
